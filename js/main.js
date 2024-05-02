@@ -1769,8 +1769,8 @@ function Gamble(level){
 	switch(level){
 		case 1:
 			var randomNumber = Math.floor(Math.random() * 4) + 1;
-			var multiplyAmount = 3;
-			var percent = "25%";
+			var multiplyAmount = 1000000000;
+			var percent = "100%";
 		break;
 
 		case 2:
@@ -1796,7 +1796,7 @@ function Gamble(level){
 	var x = prompt("enter an amount of nuts, total nuts: " + nuts,nuts);
 	if(x >= 1){
 		if(x <= nuts){
-			if(confirm("you selected " + x + " nuts, are you sure you want to gamble them for a 25% chance to get " + x * multiplyAmount + " back ?")){
+			if(confirm("you selected " + x + " nuts, are you sure you want to gamble them for a 100% chance to get " + x * multiplyAmount + " back ?")){
 				nuts = nuts - x;
 				UpdateValues();
 				if(randomNumber == 2){
