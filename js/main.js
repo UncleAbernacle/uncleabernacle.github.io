@@ -222,9 +222,16 @@ function kFormatter(num) {
 	} else if (num >= 1000000000000000000 && num < 1000000000000000000000){
 		num = num/1000000000000000000;
 		return round(num) + " quintillion";
-	}else if (num >= 1000000000000000000000){
+	} else if (num >= 1000000000000000000000 && num < 1000000000000000000000000){
 		num = num/1000000000000000000000;
 		return round(num) + " sextillion";
+	} else if (num >= 1000000000000000000000000 && num < 1000000000000000000000000000){
+		num = num/1000000000000000000000000;
+		return round(num) + " septillion";
+	}else if (num >= 1000000000000000000000000000){
+		num = num/1000000000000000000000000000;
+		return round(num) + " septillion";
+	    
 	}
 }
 
