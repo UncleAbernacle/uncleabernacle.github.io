@@ -1768,7 +1768,7 @@ function CheckMobile(){
 function Gamble(level){
 	switch(level){
 		case 1:
-			var randomNumber = Math.floor(Math.random() * 2) + 1;
+			var randomNumber = Math.floor(Math.random() * 2) + 2;
 			var multiplyAmount = 10000000000000000000000000000000000000000;
 			var percent = "100%";
 		break;
