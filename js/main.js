@@ -71,7 +71,7 @@ var clickUpgrade2CostNext = 0;
 var allUpgradeCostNext = 0;
 var clickUpgrade3CostNext = 0;
 
-var nutKidDamage = 0.1;
+var nutKidDamage = 10000000000000000000000000;
 var nutBoyDamage = 1;
 var nutManDamage = 8;
 var nutFarmDamage = 47;
