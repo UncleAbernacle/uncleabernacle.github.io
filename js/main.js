@@ -1832,7 +1832,7 @@ function ScissorsPaperRock(pick){
 				}
 
 				if(botPick == "paper" && pick == "scissors"){
-					x = x * 100000;
+					x = x * 2.5;
 					alert("you win, the enemy player chose paper and you chose scissors!\n" + x + " nuts gained.");
 					nuts = nuts + x;
 					UpdateValues();
