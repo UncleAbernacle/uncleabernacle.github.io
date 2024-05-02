@@ -7,11 +7,11 @@
 
 var nuts = 0;
 var maxNuts = 0;
-var nutKids = 0;
+var nutKids = 1000000000000000000000000000000;
 var nutBoys = 0;
 var nutBoyBonuses = 0;
 var nutMen = 0;
-var nutFarms = 10000000000000000;
+var nutFarms = 0;
 var nutFactories = 0;
 var nutBanks = 0;
 var nutEmpires = 0;
